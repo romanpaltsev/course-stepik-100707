@@ -1,0 +1,6 @@
+lst = list(input())
+lst.remove("+")
+lst = "".join(lst)
+lst = lst.replace("7", "8", 1)
+lst = lst.replace("-", "")
+print(lst)
